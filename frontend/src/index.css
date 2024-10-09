@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #646ae0;
+}
+table {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+tr,
+td,
+th {
+  padding: 10px;
+  font-size: 0.9rem;
+  min-width: 150px;
+}
+.thDashboard {
+  background-color: #c5c1c1;
+  color: black;
+  text-align: start;
+  font-weight: 600;
+}
+tr:nth-child(even) {
+  background-color: #eeeeee;
+  color: #0e1c50;
+}
+tr:nth-child(odd) {
+  background-color: #f8f3f3;
+  color: #0e1c50;
+}
+.containerTableDashboard {
+  max-height: 50vh;
+  min-height: 50vh;
+  overflow-y: auto;
+}
