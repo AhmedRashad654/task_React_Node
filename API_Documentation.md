@@ -69,7 +69,7 @@
 
 ### GET /api/campaign , /api/campaign?page=1&limit=6
 
-- **Description**: get campaign depended on page and limit , default page = 1 , default limit = 6
+- **Description**: get campaigns , default page = 1 , default limit = 6
 - **Access**: public.
 - **Returns**: arrat of campaign , totalpages.
 
@@ -77,7 +77,7 @@
 
 - **Description**: get campaign depended on category , default page = 1 , default limit = 6
 - **Access**: public.
-- **Returns**: arrat of campaign , totalpages.
+- **Returns**: array of campaign , totalpages.
 
 ### GET /api/campaign/:campaignId
 
